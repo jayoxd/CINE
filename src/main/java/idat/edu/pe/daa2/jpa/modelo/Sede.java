@@ -56,6 +56,7 @@ public class Sede implements Serializable {
     @JoinColumn(name = "cine", referencedColumnName = "idCine")
     @ManyToOne(optional = false)
     private Cine cine;
+    int caca=50;
 
     public Sede() {
     }
